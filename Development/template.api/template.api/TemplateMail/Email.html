@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://fonts.googleapis.com/css?family=helvetica" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        *, *::after, *::before {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            box-sizing: inherit;
+            font-family: "helvetica";
+        }
+
+        #mail {
+            width: 100%;
+            float: left;
+        }
+
+        .main {
+            width: 420px;
+            position: relative;
+            background: black;
+            float: left;
+        }
+
+        .head {
+            width: 100%;
+            float: left;
+            height: 270px;
+            display: inline-block;
+            text-align: center;
+            background-image: url('http://mieletickets.demo-minimalist.com/assets/img/imagenes%20miele%20notificaciones/imgCorreo.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .body {
+            width: 100%;
+            float: left;
+            height: auto;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .footer {
+            width: 100%;
+            padding: 10px 0;
+            float: left;
+            background-color: red;
+        }
+
+            .body > p, .footer > p {
+                font-size: 12px;
+                font-weight: bold;
+                text-align: center;
+                padding: 5px 40px;
+                color: white;
+            }
+
+            .footer > p {
+                font-weight: normal;
+            }
+
+        .logo {
+            width: 200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="mail">
+        <div class="main">
+            <div class="head">
+                <img src="http://mieletickets.demo-minimalist.com/assets/img/miele-logo-immer-besser.png" class="logo" />
+            </div>
+            <div class="body">
+                <p>Bienvenido(a) {username}</p>
+                <p>Te hemos asignado el siguiente password provisional, por favor cambia tu contraseña al entrar a la aplicación.</p>
+                <p>Password: {password}</p>
+                <p>Verifica tú cuenta<a href="http://miele.app.clientes.demo-minimalist.com/accout-confirm/{id}"> aqui</a></p>
+            </div>
+            <div class="footer">
+                <p>Miele México</p>
+                <p>Calle Arquímedes 43, Polanco V Secc, Miguel Hidalgo, 11560 Ciudad de México, <br /> CDMX 800 643 5300</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

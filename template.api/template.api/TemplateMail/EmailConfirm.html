@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://fonts.googleapis.com/css?family=helvetica" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        html,
+        body {
+            font-family: "helvetica";
+            margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
+
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        div[style*="margin: 16px 0"] {
+            margin: 0 !important;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+        }
+
+        table {
+            border-spacing: 0 !important;
+            border-collapse: collapse !important;
+            table-layout: fixed !important;
+            Margin: 0 auto !important;
+        }
+
+            table table table {
+                table-layout: auto;
+            }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        .mobile-link--footer a,
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: underline !important;
+        }
+    </style>
+
+    <style>
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+
+            .button-td:hover,
+            .button-a:hover {
+                background: #555555 !important;
+                border-color: #555555 !important;
+            }
+
+        @media screen and (max-width: 600px) {
+            .email-container {
+                width: 100% !important;
+                margin: auto !important;
+            }
+
+            .fluid,
+            .fluid-centered {
+                max-width: 100% !important;
+                height: auto !important;
+                Margin-left: auto !important;
+                Margin-right: auto !important;
+            }
+
+            .fluid-centered {
+                Margin-left: auto !important;
+                Margin-right: auto !important;
+            }
+
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                direction: ltr !important;
+            }
+
+            .stack-column-center {
+                text-align: center !important;
+            }
+
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                Margin-left: auto !important;
+                Margin-right: auto !important;
+                float: none !important;
+            }
+
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 736px) {
+            .footer-dessing {
+                border: 0;
+            }
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 444px) {
+
+            .footer-style {
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                height: 78px;
+            }
+        }
+
+        @media only screen and (min-width: 444px) and (max-width: 736px) {
+
+            .footer-style {
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                height: 71px;
+            }
+        }
+    </style>
+
+</head>
+
+<body bgcolor="#000" width="100%" style="Margin: 0;">
+    <center style="width: 100%; background: #000;">
+        <div style="width:100%;position:absolute;">
+            <img src="http://mieletickets.demo-minimalist.com/assets/img/miele-logo-immer-besser.png" width="100" style="" />
+        </div>
+        <img src="http://mieletickets.demo-minimalist.com/assets/img/imagenes%20miele%20notificaciones/imgCorreo.png" style="width:100%;" />
+        <div style="width:100%;height:30px;"></div>
+        <div style="width:100%;color:white;font-size:20px;text-align:center;">
+            <label style="">Bienvenido(a) a Miele App para clientes {username}</label>
+        </div>
+        <div style="width:100%;height:30px;"></div>
+        <div style="width:100%;color:white;font-size:20px;text-align:center;">
+            <label style="">Por favor verifica tu cuenta dando click <a href="http://miele.app.clientes.demo-minimalist.com/accout-confirm/{id}">aqui</a></label>
+        </div>
+        <div style="width:100%;height:30px;"></div>
+
+    </center>
+    <div class="footer-style">
+        <div class="footer-dessing" style="width:100%;color:white;font-size:15px;text-align:center;background-color:#9F0006; position: absolute;">
+            <label style="">Miele México</label><br />
+            <label style="">Calle Arquímedes 43, Polanco, Polanco V Secc, Miguel Hidalgo, 11560 Ciudad de México, CDMX</label><br />
+            <label style="">800 643 5300</label><br />
+        </div>
+    </div>
+    <script type="text/javascript">
+        //document.getElementsByClassName("t").addEventListener('click', function (e) {
+        //    newButton_Click(document.getElementsByClassName("t"), e)
+        //});
+        function redireccionar() {
+            window.locationf = "mileapp://changePassword?id={id}";
+            location.href = "mileapp://changePassword?id={id}";
+        }
+        function redireccionar2() {
+            window.locationf = "http://www.google.com";
+            //location.href = "http://www.google.com";
+        }
+        function redireccionar3() {
+            //window.locationf = "http://www.google.com";
+            location.href = "http://www.google.com";
+        }
+                                                                        //setTimeout("redireccionar()", 5000); //tiempo expresado en milisegundos
+    </script>
+</body>
+</html>

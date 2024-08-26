@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace mieleApp.api.Models.Product
+{
+    public class ProducUserDto
+    {
+        public long Id { get; set; }
+        public long? IdUser { get; set; }
+        public int? IdCatSublineaProducto { get; set; }
+        public int? IdDireccioin { get; set; }
+        public int? Cantidad { get; set; }
+    }
+}

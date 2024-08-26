@@ -1,0 +1,706 @@
+﻿{
+   "ContextClassName": "Db_TemplateContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "DoNotCombineNamespace": false,
+   "IdReplace": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "db_context",
+   "ProjectRootNamespace": "template.dal",
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 1,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AccesoriosRelacionados]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[afectacion_cc]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[beneficio_desc]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[beneficio_msi]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[beneficio_productos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[beneficios_promocion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Canales]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[caracteristicas_Bases]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Accesorios]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Accesorios_Relacionados]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Actividad]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Aplicaciones]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Area_Cobertura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cat_beneficios]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_canales]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Catalogo_Super_Linea]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Categoria_Producto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Categoria_Servicio]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Checklist_Producto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_CoberturaCodigoPostal]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_CondicionesComerciales]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_CondicionesPago]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Cuentas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Direccion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cat_direccion_sucursales]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_distribuidor_autorizado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Estado]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Estatus_Compra]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Estatus_Cotizacion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_estatus_servicio]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cat_falla]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Formas_Pago]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cat_garantia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Imagenes_Accesosrios]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Imagenes_Producto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Linea_Producto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Lista_Precios]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Localidad]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Materiales]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Materiales_Tecnico]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cat_Motivos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cat_msi]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Municipio]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cat_periodo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Producto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Productos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Productos_Estatus_Troubleshooting]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Productos_Preguntas_Troubleshooting]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Productos_Problema_Troubleshooting]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Productos_Respuestas_Troubleshooting]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cat_reparacion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Roles]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_solicitado_por]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_solicitud_via]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_SubLinea_Producto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Sucursales]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Sugeridos_Producto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cat_SuperLineas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cat_Tarjetas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Tecnicos_Sub_Tipo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Tecnicos_Tipo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cat_tipo_condicion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cat_tipo_entidades]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cat_tipo_productos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_Tipo_Refaccion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cat_tipo_servicio]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cat_tipos_comisiones]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cat_tipos_herencia]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cat_unidades_por_equipo]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CatEstatus_Producto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CatEstatus_Visita]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cer_consumibles]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cer_labor]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cer_producto_carrito]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cer_producto_cliente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cer_viaticos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Check_List_Preguntas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Check_List_Respuestas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cliente_Productos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Clientes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[com_afectacion_ccs]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[com_entidades_participantes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[com_producto_promocions]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[com_productos_condicions]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[comisiones_promo_sublinea_config]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[comisiones_sucursales]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[comisiones_vendedores]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CondicionesComerciales_Cuenta]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[condiones_comerciales_sucursal]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[config_comisiones]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[cotizacion_monto_descuento]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cotizacion_Producto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cotizacion_Promocion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Cotizaciones]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DatosFiscales]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DatosFiscales_Canales]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[DatosFiscales_Sucursales]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Direcciones_Cliente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[direcciones_cotizacion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[documentos_cotizacion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[encuesta_general]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[encuesta_queja]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[entidades_excluidas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[entidades_obligatorias]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[entidades_participantes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[formas_pago_tipos_comprobantes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[historial_estatus]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[home_producto_cliente]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[home_Producto_Estados]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Informe_parte_recibida]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Log_refacciones]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[mensajes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Notificaciones]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[NotificacionesComerciales]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[NotificationApp]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[parametro_Archivos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[parametro_Terminos_Condiciones]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Permisos_Flujo_Cotizacion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Piezas_Repuesto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Piezas_Repuesto_Tecnico]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Prediagnostico]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Prediagnostico_Refacciones]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[producto_certificado_sublinea]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Producto_Check_List_Respuestas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Producto_Promocion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Productos_Carrito]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[productos_condicion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[productos_excluidos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[productos_relacionados]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ProductosQuejas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[promocion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[promociones_compatibles]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Propuestas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Quejas]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[quejas_servicios]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RegistroItems]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Rel_Categoria_Producto_Tipo_Producto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[rel_certificado_carrito]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[rel_certificado_producto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[rel_certificado_producto_consumibles]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[rel_consumible_sublinea]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[rel_homep_productos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Rel_Imagen_Producto_Visita]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Rel_Servicio_Categoria_App]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Rel_servicio_producto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Rel_servicio_Refaccion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[rel_tecnico_visita]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[rel_tecnico_visita_app]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[rel_User_UserApp]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Servicio]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Servicio_app]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[servicio_fotos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[servicio_fotos_app]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Servicio_Sin_Pagos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Servicio_Troubleshooting]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Stock_Inicial]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Sub_cat_tipo_servicio]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[sublinea_certificado_partners]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Tecnicos]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Tecnicos_Actividad]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Tecnicos_Cobertura]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Tecnicos_Producto]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TipoQueja]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tipos_comprobantes]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TokenItems]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[User_Clients_App]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[user_SubLinea_App]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Users]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Vendedores]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Visita]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Visita_app]"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseSpatial": false
+}

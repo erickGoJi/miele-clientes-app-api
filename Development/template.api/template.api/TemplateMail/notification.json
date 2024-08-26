@@ -1,0 +1,18 @@
+{
+  "ConfigNotificacion": {
+    "url": "https://fcm.googleapis.com/",
+    "urlImagen": "https://api.mieleservice.com.mx/mieletickets/imagenNotificacion/",
+    "controller": "fcm/send",
+    "headers": [
+      {
+        "key": "Authorization",
+        "Value": "key=AAAAUZYJPd0:APA91bEr2AonzD_YP-SVICqiPPQ2vI6q36fIJ58zjYtq-arsqfdgzTDU-0SQ9zwenRHsbzki4vzC-_keCrPfAZwvBUFC9JyqD1u-HZuDp-R0YQYjNYR7N_XewgtABGJ7VWIVVbTi0bjQ"
+      }
+    ]
+  },
+  "SendMail": {
+    "url": "http://23.253.173.64/api/",
+    "controller": "servicios/Agregar_visita_app",
+    "headers": []
+  }
+}

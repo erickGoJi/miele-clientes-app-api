@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mieleApp.api", "template.api\mieleApp.api.csproj", "{6E1764B1-504C-476A-968B-B429FFDE63AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mieleApp.biz", "..\template.biz\mieleApp.biz.csproj", "{90DC3173-8390-4925-BFB6-C106E049F314}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mieleApp.dal", "..\template.dal\mieleApp.dal.csproj", "{E52F1515-00F2-4D8E-A0F5-268EE477135B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "comunicacion", "..\template.comunicacion\Communication\comunicacion.csproj", "{C622BE03-451F-48E7-AC27-EB9D068908A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E1764B1-504C-476A-968B-B429FFDE63AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1764B1-504C-476A-968B-B429FFDE63AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E1764B1-504C-476A-968B-B429FFDE63AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E1764B1-504C-476A-968B-B429FFDE63AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90DC3173-8390-4925-BFB6-C106E049F314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DC3173-8390-4925-BFB6-C106E049F314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DC3173-8390-4925-BFB6-C106E049F314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DC3173-8390-4925-BFB6-C106E049F314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52F1515-00F2-4D8E-A0F5-268EE477135B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52F1515-00F2-4D8E-A0F5-268EE477135B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52F1515-00F2-4D8E-A0F5-268EE477135B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52F1515-00F2-4D8E-A0F5-268EE477135B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C622BE03-451F-48E7-AC27-EB9D068908A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C622BE03-451F-48E7-AC27-EB9D068908A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C622BE03-451F-48E7-AC27-EB9D068908A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C622BE03-451F-48E7-AC27-EB9D068908A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13848156-3744-4B49-97FF-D195EDFC983C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://minimalistdev.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = template.api\\mieleApp.api.csproj
+		SccProjectName1 = template.api
+		SccLocalPath1 = template.api
+		SccProjectUniqueName2 = ..\\template.biz\\mieleApp.biz.csproj
+		SccProjectName2 = ../template.biz
+		SccLocalPath2 = ..\\template.biz
+		SccProjectUniqueName3 = ..\\template.comunicacion\\Communication\\comunicacion.csproj
+		SccProjectName3 = ../template.comunicacion/Communication
+		SccLocalPath3 = ..\\template.comunicacion\\Communication
+		SccProjectUniqueName4 = ..\\template.dal\\mieleApp.dal.csproj
+		SccProjectName4 = ../template.dal
+		SccLocalPath4 = ..\\template.dal
+	EndGlobalSection
+EndGlobal
